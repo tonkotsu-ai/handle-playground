@@ -1,6 +1,6 @@
 # Handle Playground
 
-A small, standalone Vite + React site used as a demo project for [Handle](https://www.handle.ai). Meant to be opened in the Handle app and edited live — clicking elements to change them, or asking the agent to remake sections of the page.
+A small, standalone Vite + React site used as a demo project for [Handle Studio](https://www.gethandle.ai). Meant to be opened in the Handle Studio and edited live — clicking elements to change them, or asking the agent to remake sections of the page.
 
 ## If you're running it by hand
 
