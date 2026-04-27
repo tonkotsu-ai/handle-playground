@@ -28,7 +28,7 @@ export type Hero = {
 
 export const hero: Hero = {
   name: "Mia Chen",
-  tagline: "Design engineer based in Brooklyn. I build small, considered tools for people who make things.",
+  tagline: "Design engineer based in Brooklyn. I build small, considered tools for people who make things. I embrace AI-assisted design and development processed.",
   availability: "Available for new work — Summer 2026",
 }
 
