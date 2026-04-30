@@ -3,7 +3,7 @@ export type Project = {
   description: string
   role: string
   year: number
-  gradient: [string, string]
+  color: string
   href: string
 }
 
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     description: "marketing site + brand for an ocean-data startup",
     role: "Design + engineering",
     year: 2025,
-    gradient: ["#0ea5e9", "#1e3a8a"],
+    color: "#0ea5e9",
     href: "#",
   },
   {
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     description: "onboarding redesign for a personal finance app",
     role: "Product design + prototyping",
     year: 2025,
-    gradient: ["#f59e0b", "#c2410c"],
+    color: "#f59e0b",
     href: "#",
   },
   {
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     description: "open-source CLI for snippet management",
     role: "Design + engineering",
     year: 2024,
-    gradient: ["#a78bfa", "#ec4899"],
+    color: "#a78bfa",
     href: "#",
   },
 ]

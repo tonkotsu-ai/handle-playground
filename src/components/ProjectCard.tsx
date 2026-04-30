@@ -1,11 +1,11 @@
 import type { Project } from "../content"
 
-export default function ProjectCard({ name, description, role, year, gradient, href }: Project) {
+export default function ProjectCard({ name, description, role, year, color, href }: Project) {
   return (
     <a href={href} className="block group">
       <div
         className="aspect-[4/3] rounded-lg ring-1 ring-inset ring-black/5"
-        style={{ backgroundColor: gradient[0] }}
+        style={{ backgroundColor: color }}
       />
       <div className="mt-4">
         <h3 className="text-lg font-medium group-hover:underline">
